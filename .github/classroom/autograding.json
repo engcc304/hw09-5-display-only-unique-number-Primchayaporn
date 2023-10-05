@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-5-display-only-unique-number.cpp",
+      "run": "./a.out",
+      "input": "5\r\n1\r\n1\r\n2\r\n3\r\n3\r\n",
+      "output": "Unique value : 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-5-display-only-unique-number.cpp",
+      "run": "./a.out",
+      "input": "6\r\n9\r\n9\r\n5\r\n6\r\n2\r\n1\r\n",
+      "output": "Unique value : 1 2 5 6",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
